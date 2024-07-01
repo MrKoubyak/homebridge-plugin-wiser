@@ -4,11 +4,7 @@
 
 </p>
 
-<span align="center">
-
-# Homebridge Platform Plugin Template
-
-</span>
+# Homebridge Wiser (from Schneider Electric) Plugin
 
 This is a template Homebridge dynamic platform plugin and can be used as a base to help you get started developing your own plugin.
 

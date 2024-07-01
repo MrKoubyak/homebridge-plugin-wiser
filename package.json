@@ -1,17 +1,19 @@
 {
   "private": true,
-  "displayName": "Plugin Name",
-  "name": "homebridge-plugin-name",
-  "version": "1.0.0",
-  "description": "A short description about what your plugin does.",
+  "displayName": "Wiser Homebridge",
+  "name": "homebridge-plugin-wiser",
+  "version": "0.1.0",
+  "description": "Homebridge plugin for Schneider Electric Wiser systems",
+  "author": "Laurent LEFEVRE",
   "license": "Apache-2.0",
   "type": "module",
+  "homepage":"https://github.com/MrKoubyak/homebridge-plugin-wiser",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/USERNAME/GITHUB_PROJECT_NAME.git"
+    "url": "git:https://github.com/MrKoubyak/homebridge-plugin-wiser.git"
   },
   "bugs": {
-    "url": "https://github.com/USERNAME/GITHUB_PROJECT_NAME/issues"
+    "url": "https://github.com/MrKoubyak/homebridge-plugin-wiser/issues"
   },
   "engines": {
     "node": "^18.17.0 || ^20.9.0",
@@ -25,7 +27,9 @@
     "prepublishOnly": "npm run lint && npm run build"
   },
   "keywords": [
-    "homebridge-plugin"
+    "homebridge-plugin",
+    "wiser",
+    "Schneider"
   ],
   "devDependencies": {
     "@types/node": "^20.12.13",
